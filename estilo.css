@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Sniglet&display=swap');
+
+body{
+	font-family: 'Sniglet', monospace;
+	font-weight: 400;
+	color: white;
+}
+
+
+
+h1,h3,h5{
+font-family:'Permanent Marker', monospace;
+  font-weight: 400;
+	color: white;
+}
+
+h2,h4,h6,strong{
+	font-family: 'Sniglet', monospace;
+	font-weight: 700;
+	color: white;
+}
+
+.display-1{
+  font-family: 'Permanent Marker';
+  font-weight: 700;
+	word-break: break-all;
+	color: white;
+}
+
+.display-1:nth-child(1){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://vignette.wikia.nocookie.net/godzilla/images/3/35/Godzilla_kin_67.jpg/revision/latest?cb=20190608230810&path-prefix=es) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+  	-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.display-1:nth-child(2){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://gpstatic.com/acache/11/67/1/uk/s4-f785febe246dacd52a0c030e85f6b679.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.display-1:nth-child(3){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://images3.alphacoders.com/667/667142.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.display-1:nth-child(4){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://images6.alphacoders.com/784/784346.png) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.display-1:nth-child(5){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://wallpaperstock.net/final-fantasy-tactics-wallpapers_20098_1920x1080.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+a#especial{
+	font-style: italic;
+	font-weight: 400;
+	color:red;
+	text-transform: lowercase;
+}
+
+a#especial:before{
+	content:"+ ";
+}
+
+button.navbar-toggler{
+	border:none;
+}
